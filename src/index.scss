@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+.navbar {
+  background-color: #fff !important;
+}
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: #565387 !important;
+}
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.navbar a:hover {
+  color: #3498db !important;
+}
+/* ---------------------------------------------------------home Section -------------------------------- */
+.home{
+  width: 100%;
+  min-height: 80vh;
+  margin-top: 30px;
+}
+.home h1{
+  margin: 0 0 10px 0;
+  font-size: 3rem;
+  font-weight: 700;
+  color: black;
+}
+.brand_name{
+  color: #3498db;
+}
+.home h2{
+  color: #484848;
+  font-size: 1.5rem;
+}
+.get_start_btn{
+  border-radius: 25px !important;
+  transition: 0.5s !important;
+}
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+  0%{transform: translateY(10px);}100%{transform: translateY(-10px);}
+}
+@keyframes up-down {
+  0%{transform: translateY(10px);}100%{transform: translateY(-10px);}
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px)
+ No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+.navbar-brand {
+    font-size: 1.2rem !important;
+  }
+  .active {
+    border-bottom: none;
+  }
+  .home h1{
+    font-size: 1.5rem;
+  }
+  .home h2{
+    font-size: 1rem;
+  }
+}
+@media (min-width: 576px) {
+.navbar-brand {
+    font-size: 1.2rem !important;
+  }
+  .active {
+    border-bottom: none;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+  .active {
+    border-bottom: none;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+.active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  
+} */
