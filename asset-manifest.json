@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MURAYI-TECHNOGIES/static/css/main.40bf2c37.css",
+    "main.js": "/MURAYI-TECHNOGIES/static/js/main.0a66f8a7.js",
+    "static/media/home.png": "/MURAYI-TECHNOGIES/static/media/home.03028508192b7e078a64.png",
+    "static/media/about.png": "/MURAYI-TECHNOGIES/static/media/about.31206b14cd133619995f.png",
+    "index.html": "/MURAYI-TECHNOGIES/index.html",
+    "main.40bf2c37.css.map": "/MURAYI-TECHNOGIES/static/css/main.40bf2c37.css.map",
+    "main.0a66f8a7.js.map": "/MURAYI-TECHNOGIES/static/js/main.0a66f8a7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40bf2c37.css",
+    "static/js/main.0a66f8a7.js"
+  ]
+}
